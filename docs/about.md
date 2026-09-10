@@ -1,3 +1,8 @@
+---
+layout: default
+title: ChromaLearn
+description: AI som hjælper eleven med at lære – ikke med at springe læringen over
+---
 # ChromaLearn
 
 ## AI som hjælper eleven med at lære – ikke med at springe læringen over
