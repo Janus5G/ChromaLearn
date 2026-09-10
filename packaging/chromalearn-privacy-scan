@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+import argparse, os
+from pathlib import Path
+
+SKIP_PREFIXES=(Path('/proc'),Path('/sys'),Path('/dev'),Path('/run'))
+MAX_SIZE=64*1024*1024
+
+def skipped(p):
+    try: rp=p.resolve()
+    except Exception: return True
+    return any(rp==x or x in rp.parents for x in SKIP_PREFIXES)
+
+def main():
+    ap=argparse.ArgumentParser(description='Search regular files for a non-sensitive ChromaLearn canary marker.')
+    ap.add_argument('marker',help='unique TEST marker; never use real pupil data')
+    ap.add_argument('roots',nargs='*',help='directories/files to scan')
+    args=ap.parse_args()
+    roots=[Path(x) for x in args.roots] if args.roots else [Path('/tmp'),Path('/var/tmp'),Path('/var/log'),Path('/var/lib/chromalearn'),Path.home()/'.local/share/chromalearn']
+    needle=args.marker.encode(); hits=[]; checked=0
+    for root in roots:
+        if not root.exists() or skipped(root): continue
+        paths=[root] if root.is_file() else root.rglob('*')
+        for p in paths:
+            try:
+                if skipped(p) or not p.is_file() or p.stat().st_size>MAX_SIZE: continue
+                checked+=1
+                with p.open('rb') as f:
+                    while True:
+                        chunk=f.read(1024*1024)
+                        if not chunk: break
+                        if needle in chunk:
+                            hits.append(str(p)); break
+            except (PermissionError,OSError): continue
+    print(f'Checked regular files: {checked}')
+    if hits:
+        print('CANARY FOUND:')
+        for h in hits: print(h)
+        raise SystemExit(1)
+    print('No canary found in scanned regular files.')
+    print('This does not test raw swap/hibernation blocks, remote services, snapshots or third-party telemetry.')
+
+if __name__=='__main__': main()

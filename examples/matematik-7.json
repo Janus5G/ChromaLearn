@@ -1,0 +1,11 @@
+{
+  "id": "matematik-7",
+  "name": "Matematik 7. klasse",
+  "subject": "Matematik",
+  "level": "7. klasse",
+  "help_level": 2,
+  "assessment_mode": "homework",
+  "allow_analogous_examples": true,
+  "source_policy": "Use the task material and established mathematics. Do not invent sources.",
+  "enabled": true
+}

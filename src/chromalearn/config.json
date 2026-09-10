@@ -1,0 +1,24 @@
+{
+  "api_url": "http://127.0.0.1:8000/v1/chat/completions",
+  "model": "local-model",
+  "listen_host": "127.0.0.1",
+  "listen_port": 8765,
+  "auth_mode": "none",
+  "api_key_env": "CHROMALEARN_API_KEY",
+  "request_timeout_seconds": 90,
+  "temperature": 0.35,
+  "max_tokens": 700,
+  "privacy": {
+    "persist_student_chats": false,
+    "retention_days": 0
+  },
+  "school_name": "",
+  "adaptive_learning": {
+    "enabled": true,
+    "session_only": true
+  },
+  "session": {
+    "idle_timeout_minutes": 20,
+    "absolute_timeout_minutes": 60
+  }
+}

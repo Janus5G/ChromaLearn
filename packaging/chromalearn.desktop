@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ChromaLearn AI
+Comment=Pædagogisk AI-læring for elever, lærere og skoler
+Exec=chromalearn
+Icon=chromalearn
+Terminal=false
+Categories=Education;
+Keywords=AI;Education;Tutor;Learning;
