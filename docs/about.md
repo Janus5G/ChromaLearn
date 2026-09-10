@@ -4,9 +4,6 @@ title: ChromaLearn
 description: AI som hjælper eleven med at lære – ikke med at springe læringen over
 ---
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-# ChromaLearn
-
-## AI som hjælper eleven med at lære – ikke med at springe læringen&nbsp;over
 
 ChromaLearn er et open source-baseret AI-læringsværktøj udviklet med ét grundlæggende formål:
 
