@@ -116,7 +116,7 @@ Til en kontrolleret canary-test kan `chromalearn-privacy-scan <TEST-MARKØR>` an
 
 ChromaLearn er udviklet til at blive testet og verificeret i skolens eget miljø, før det tages bredt i brug.
 
-📦 **[Download ChromaLearn Skoleevalueringspakke v1.2.1 DA](docs/ChromaLearn_Skoleevalueringspakke_v1.2.1_DA.zip)**
+📦 **[Hent ChromaLearn Skoleevalueringspakke v1.2.1 DA](docs/ChromaLearn_Skoleevalueringspakke_v1.2.1_DA.zip)**
 
 Evalueringspakken indeholder materiale til skoleledelse, lærere, IT/EDB-ansvarlige og DPO/dataansvarlige samt vejledning til pilotafprøvning, databeskyttelse og teknisk verifikation.
 
