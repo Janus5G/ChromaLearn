@@ -5,7 +5,7 @@ description: AI som hjælper eleven med at lære – ikke med at springe læring
 ---
 # ChromaLearn
 
-## AI som hjælper eleven med at lære – ikke med at springe læringen over
+## AI som hjælper eleven med at lære – ikke med at springe læringen&nbsp;over
 
 ChromaLearn er et open source-baseret AI-læringsværktøj udviklet med ét grundlæggende formål:
 
