@@ -1,0 +1,63 @@
+/* ChromaLearn - egne tilpasninger */
+
+/* Stor ChromaLearn-titel */
+.project-name {
+    font-size: 4.5rem !important;
+    font-weight: 800;
+}
+
+/* Teksten under hovedtitlen */
+.project-tagline {
+    font-size: 1.75rem !important;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hovedindhold */
+.main-content {
+    max-width: 72rem;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}
+
+/* ChromaLearn-overskrift i selve teksten */
+.main-content h1 {
+    font-size: 3rem !important;
+    font-weight: 700;
+}
+
+/* Undertitler */
+.main-content h2 {
+    font-size: 2.15rem !important;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+
+/* Mindre afsnitsoverskrifter */
+.main-content h3 {
+    font-size: 1.6rem !important;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+/* Mobil */
+@media (max-width: 640px) {
+    .project-name {
+        font-size: 3rem !important;
+    }
+
+    .project-tagline {
+        font-size: 1.35rem !important;
+    }
+
+    .main-content h1 {
+        font-size: 2.3rem !important;
+    }
+
+    .main-content h2 {
+        font-size: 1.75rem !important;
+    }
+}
