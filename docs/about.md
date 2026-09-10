@@ -5,7 +5,7 @@ description: AI som hjælper eleven med at lære – ikke med at springe læring
 ---
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-ChromaLearn er et open source-baseret AI-læringsværktøj udviklet med ét grundlæggende formål:
+## ChromaLearn er et open source-baseret AI-læringsværktøj udviklet med ét grundlæggende formål:
 
 **Eleven skal bruge kunstig intelligens til at lære, forstå og tænke selv – ikke til at få lavet arbejdet for sig.**
 
