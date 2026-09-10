@@ -3,6 +3,7 @@ layout: default
 title: ChromaLearn
 description: AI som hjælper eleven med at lære – ikke med at springe læringen over
 ---
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 # ChromaLearn
 
 ## AI som hjælper eleven med at lære – ikke med at springe læringen&nbsp;over
