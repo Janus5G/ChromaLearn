@@ -2,6 +2,8 @@
 
 ChromaLearn er et open-source pædagogisk AI-lag til skoler. Dansk er projektets standardsprog for brugerflade, dokumentation og evalueringsmateriale. Skolen vælger selv en OpenAI-kompatibel inference-server og AI-model, mens ChromaLearn styrer læringsforløb, lokale roller og privacy-grænser.
 
+📘 **[Læs den komplette beskrivelse af ChromaLearn](docs/about.md)**
+
 ## Roller
 
 Rollerne bestemmes af den Linux-konto, der starter programmet:
