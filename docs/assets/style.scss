@@ -3,74 +3,104 @@
 
 @import "{{ site.theme }}";
 
-/* Hovedtitel: ChromaLearn */
+/* ChromaLearn hero */
+.page-header {
+    background-color: #05080d !important;
+    background-image:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(90, 130, 175, 0.25) 0%,
+            rgba(25, 45, 65, 0.12) 35%,
+            rgba(0, 0, 0, 0) 65%
+        ),
+        linear-gradient(
+            135deg,
+            #020304 0%,
+            #090e15 35%,
+            #152334 70%,
+            #060b11 100%
+        ) !important;
+
+    border-bottom: 1px solid #263849;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* Hovedtitel */
 .project-name {
-  font-size: 4rem;
-  font-weight: 800;
-  letter-spacing: -1px;
+    color: #ffffff !important;
+    font-size: 5rem !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.04em;
 }
 
-/* Beskrivelsen under ChromaLearn */
+/* Beskrivelse øverst */
 .project-tagline {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+    color: #e4ebf2 !important;
+    font-size: 1.8rem !important;
+    line-height: 1.45;
+    max-width: 1100px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    opacity: 1 !important;
 }
 
-/* Indholdets store overskrifter */
+/* GitHub-knap */
+.page-header .btn {
+    color: #f5f7fa !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(180, 205, 230, 0.3) !important;
+    border-radius: 8px;
+}
+
+.page-header .btn:hover {
+    background: rgba(100, 145, 190, 0.16) !important;
+}
+
+/* Indhold */
+.main-content {
+    max-width: 82rem !important;
+    font-size: 1.18rem !important;
+    line-height: 1.75 !important;
+    color: #343d47 !important;
+}
+
+/* Overskrifter */
 .main-content h1 {
-  font-size: 2.8rem;
-  font-weight: 750;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+    color: #15283b !important;
+    font-size: 3.2rem !important;
+    font-weight: 750 !important;
 }
 
-/* H2 – fx:
-   AI som hjælper eleven med at lære...
-*/
 .main-content h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-top: 2.8rem;
-  margin-bottom: 1rem;
+    color: #1d344a !important;
+    font-size: 2.35rem !important;
+    font-weight: 700 !important;
+    line-height: 1.3;
+    margin-top: 3rem !important;
 }
 
-/* H3 */
 .main-content h3 {
-  font-size: 1.45rem;
-  font-weight: 700;
-  margin-top: 2rem;
-}
-
-/* Almindelig tekst */
-.main-content {
-  font-size: 1.1rem;
-  line-height: 1.7;
-}
-
-/* Gør siden lidt bredere */
-.main-content {
-  max-width: 72rem;
+    color: #29445f !important;
+    font-size: 1.65rem !important;
+    font-weight: 700 !important;
 }
 
 /* Mobil */
-@media screen and (max-width: 640px) {
-  .project-name {
-    font-size: 2.8rem;
-  }
+@media screen and (max-width: 700px) {
+    .project-name {
+        font-size: 3.2rem !important;
+    }
 
-  .project-tagline {
-    font-size: 1.25rem;
-  }
+    .project-tagline {
+        font-size: 1.35rem !important;
+    }
 
-  .main-content h1 {
-    font-size: 2.2rem;
-  }
+    .main-content h1 {
+        font-size: 2.35rem !important;
+    }
 
-  .main-content h2 {
-    font-size: 1.65rem;
-  }
+    .main-content h2 {
+        font-size: 1.8rem !important;
+    }
 }
