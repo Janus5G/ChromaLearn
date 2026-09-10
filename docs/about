@@ -6,9 +6,11 @@ ChromaLearn er et open source-baseret AI-læringsværktøj udviklet med ét grun
 
 **Eleven skal bruge kunstig intelligens til at lære, forstå og tænke selv – ikke til at få lavet arbejdet for sig.**
 
-Programmet er udviklet særligt med skoler og undervisningsmiljøer for øje. Det kombinerer pædagogisk styret AI-hjælp med klare roller for elever, lærere og IT-ansvarlige samt en teknisk arkitektur, hvor elevens læringssession som udgangspunkt er midlertidig og ikke bliver til en permanent elevprofil.
+Programmet er udviklet særligt med skoler og undervisningsmiljøer for øje. Det kombinerer pædagogisk styret AI-hjælp med klare roller for elever, lærere og IT-ansvarlige samt en teknisk arkitektur, hvor elevens læringssession er midlertidig og ikke bliver til en permanent elevprofil.
 
 ChromaLearn er ikke tænkt som en erstatning for læreren. Læreren fastlægger fortsat de pædagogiske rammer, undervisningsmålet og graden af hjælp. AI'en fungerer som et værktøj inden for disse rammer.
+
+---
 
 ## Hvorfor ChromaLearn?
 
@@ -18,12 +20,12 @@ En elev kan bede en AI om at skrive en aflevering, løse en ligning eller produc
 
 Eller AI kan bruges som en tutor, der spørger:
 
-* Hvad ved du allerede?
-* Hvad har du prøvet?
-* Hvor tror du problemet ligger?
-* Hvilken regel kunne være relevant her?
-* Kan du forklare, hvorfor dit svar giver mening?
-* Kan du bruge samme metode på en ny opgave?
+- Hvad ved du allerede?
+- Hvad har du prøvet?
+- Hvor tror du problemet ligger?
+- Hvilken regel kunne være relevant her?
+- Kan du forklare, hvorfor dit svar giver mening?
+- Kan du bruge samme metode på en ny opgave?
 
 ChromaLearn er bygget omkring den anden tilgang.
 
@@ -35,6 +37,8 @@ Et typisk forløb kan være:
 
 Eleven forventes derfor at deltage aktivt i problemløsningen.
 
+---
+
 ## AI'en skal hjælpe – ikke aflevere
 
 I elevtilstanden er der ikke en almindelig "vis facit"-funktion.
@@ -43,17 +47,19 @@ Hvis en elev forsøger at få systemet til at skrive en færdig aflevering eller
 
 AI'en kan eksempelvis:
 
-* stille sokratiske spørgsmål
-* forklare et begreb
-* give et begrænset hint
-* identificere en misforståelse
-* vise en tilsvarende metode med et andet eksempel
-* bede eleven forklare sin tankegang
-* kontrollere elevens forståelse med en ny opgave
+- stille sokratiske spørgsmål
+- forklare et begreb
+- give et begrænset hint
+- identificere en misforståelse
+- vise en tilsvarende metode med et andet eksempel
+- bede eleven forklare sin tankegang
+- kontrollere elevens forståelse med en ny opgave
 
 Formålet er ikke at forhindre elever i at få hjælp.
 
 Formålet er at gøre hjælpen læringsfremmende.
+
+---
 
 ## Forskellige elever – forskellige fag – forskellige metoder
 
@@ -67,18 +73,20 @@ Derfor kan ChromaLearn tilpasse undervisningsformen inden for den aktuelle sessi
 
 Systemet kan arbejde med blandt andet:
 
-* tekst og forklaring
-* strukturer og diagrammer
-* lyd og oplæsning
-* spørgsmål og dialog
-* praktiske aktiviteter
-* eksempler
-* repetition
-* forståelsestest
+- tekst og forklaring
+- strukturer og diagrammer
+- lyd og oplæsning
+- spørgsmål og dialog
+- praktiske aktiviteter
+- eksempler
+- repetition
+- forståelsestest
 
 Tilpasningen handler ikke om at stemple eleven.
 
 Den handler om at finde en hensigtsmæssig måde at forklare det konkrete stof på.
+
+---
 
 ## Test af forståelse
 
@@ -96,17 +104,21 @@ men også:
 
 **"Har eleven forstået metoden godt nok til selv at bruge den igen?"**
 
+---
+
 ## Ingen permanent adaptiv elevprofil
 
 Et centralt designprincip i ChromaLearn er, at den adaptive læring foregår inden for den aktive session.
 
-Elevens samtale, checkpoint-svar og adaptive læringsresultater er ikke tænkt som en permanent profil, der følger eleven fra gang til gang.
+Elevens samtale, checkpoint-svar og adaptive læringsresultater bliver ikke til en permanent profil, der følger eleven fra gang til gang.
 
 Når sessionen afsluttes, udløber eller programmet genstartes, nulstilles den elevspecifikke sessionshukommelse.
 
 Det er et bevidst designvalg.
 
 Eleven skal derfor også kunne se tydeligt, at ChromaLearn ikke forventes at "kende eleven" næste gang.
+
+---
 
 ## En vigtig teknisk forskel
 
@@ -116,17 +128,19 @@ Skolen skal stadig vurdere hele den tekniske installation.
 
 Hvis AI-modellen eksempelvis drives af:
 
-* en lokal modelserver
-* en central kommunal server
-* en ekstern AI-leverandør
-* en containerplatform
-* en reverse proxy
+- en lokal modelserver
+- en central kommunal server
+- en ekstern AI-leverandør
+- en containerplatform
+- en reverse proxy
 
 kan disse komponenter have deres egen logning eller databehandling.
 
 IT- og dataansvarlige skal derfor undersøge den valgte samlede installation.
 
 ChromaLearn er bevidst konstrueret, så skolen selv kan vælge denne infrastruktur.
+
+---
 
 ## Skolen vælger selv AI'en
 
@@ -136,66 +150,68 @@ Programmet kan arbejde mod en kompatibel AI-server, som skolen selv vælger.
 
 Det kan eksempelvis være:
 
-* en lokal AI-model på skolens eget udstyr
-* en fælles kommunal eller institutionel modelserver
-* en godkendt ekstern tjeneste
-* en anden OpenAI-kompatibel inference-server
+- en lokal AI-model på skolens eget udstyr
+- en fælles kommunal eller institutionel modelserver
+- en godkendt ekstern tjeneste
+- en anden OpenAI-kompatibel inference-server
 
 Dermed kan skolen selv vælge løsning ud fra krav til blandt andet:
 
-* databeskyttelse
-* pris
-* performance
-* faglig kvalitet
-* dansk sprog
-* lokal drift
-* leverandørpolitik
+- databeskyttelse
+- pris
+- performance
+- faglig kvalitet
+- dansk sprog
+- lokal drift
+- leverandørpolitik
 
 ChromaLearn kan derfor betragtes som det pædagogiske lag mellem eleven og den AI-infrastruktur, skolen vælger.
 
+---
+
 ## Tre tydelige roller
 
-ChromaLearn adskiller funktionerne mellem:
-
-**Elev**
+### Elev
 
 Eleven arbejder inden for de regler og undervisningsprofiler, som skolen og læreren har fastlagt.
 
 Eleven kan ikke selv ændre centrale sikkerheds- eller administrationsindstillinger.
 
-**Lærer**
+### Lærer
 
 Læreren bestemmer de pædagogiske rammer.
 
 Det kan blandt andet omfatte:
 
-* fag
-* klassetrin
-* emne
-* hjælpeniveau
-* undervisningsform
-* om der arbejdes med træning, lektier eller andre opgavetyper
-* hvilke typer eksempler AI'en må anvende
-* hvilke ressourcer der må benyttes
+- fag
+- klassetrin
+- emne
+- hjælpeniveau
+- undervisningsform
+- om der arbejdes med træning, lektier eller andre opgavetyper
+- hvilke typer eksempler AI'en må anvende
+- hvilke ressourcer der må benyttes
 
 Læreren behøver ikke være AI-specialist for at anvende de almindelige funktioner.
 
-**IT/EDB-administrator**
+### IT/EDB-administrator
 
 IT-administratoren håndterer den tekniske installation.
 
 Det kan blandt andet være:
 
-* valg af AI-server
-* model
-* netværksopsætning
-* adgangskontrol
-* lokale sikkerhedsindstillinger
-* driftsmiljø
-* kontrol af logning
-* installation og opdatering
+- valg af AI-server
+- model
+- netværksopsætning
+- adgangskontrol
+- lokale sikkerhedsindstillinger
+- driftsmiljø
+- kontrol af logning
+- installation og opdatering
 
 Rolleadskillelsen er bevidst. En lærer skal ikke nødvendigvis administrere servere, og en IT-medarbejder skal ikke nødvendigvis bestemme undervisningsmetoden.
+
+---
 
 ## Læreren beholder kontrollen
 
@@ -205,15 +221,17 @@ AI'en skal være et undervisningsværktøj.
 
 I den nuværende ramme er ChromaLearn ikke tiltænkt brug til eksempelvis:
 
-* automatisk karaktergivning
-* adgang eller optagelse
-* automatisk progression mellem niveauer
-* disciplinære afgørelser
-* automatisk elevsortering
-* eksamensovervågning
-* følelsesgenkendelse
+- automatisk karaktergivning
+- adgang eller optagelse
+- automatisk progression mellem niveauer
+- disciplinære afgørelser
+- automatisk elevsortering
+- eksamensovervågning
+- følelsesgenkendelse
 
 Hvis en institution ønsker væsentligt andre anvendelser, skal de vurderes særskilt.
+
+---
 
 ## Privacy by design
 
@@ -221,19 +239,21 @@ Databeskyttelse er forsøgt gjort til en del af teknikken frem for alene en teks
 
 ChromaLearn er blandt andet udviklet omkring:
 
-* sessionsbaseret elevhukommelse
-* ingen permanent adaptiv elevprofil
-* ingen almindelig eksportfunktion til elevens sessionsprofil
-* sessionstimeout
-* mulighed for eksplicit at afslutte og nulstille sessionen
-* begrænset applikationslogning
-* rollebaserede rettigheder
-* mulighed for lokal AI-drift
-* åben kildekode, der kan inspiceres
+- sessionsbaseret elevhukommelse
+- ingen permanent adaptiv elevprofil
+- ingen almindelig eksportfunktion til elevens sessionsprofil
+- sessionstimeout
+- mulighed for eksplicit at afslutte og nulstille sessionen
+- begrænset applikationslogning
+- rollebaserede rettigheder
+- mulighed for lokal AI-drift
+- åben kildekode, der kan inspiceres
 
 Det betyder ikke, at installation af programmet automatisk gør enhver anvendelse juridisk godkendt.
 
 Skolen er stadig ansvarlig for at vurdere den konkrete anvendelse, dens tekniske miljø og gældende regler.
+
+---
 
 ## Materiale til skoleledelse og dataansvarlige
 
@@ -243,16 +263,16 @@ Der findes også en dansk School Evaluation Pack, der er beregnet til vurdering 
 
 Den indeholder blandt andet materiale til:
 
-* skoleledelsen
-* lærere
-* IT/EDB-ansvarlige
-* DPO/dataansvarlige
-* pilotafprøvning
-* privacy-verifikation
-* risikovurdering
-* elevinformation
-* forældreinformation
-* hændelses- og stopprocedurer
+- skoleledelsen
+- lærere
+- IT/EDB-ansvarlige
+- DPO/dataansvarlige
+- pilotafprøvning
+- privacy-verifikation
+- risikovurdering
+- elevinformation
+- forældreinformation
+- hændelses- og stopprocedurer
 
 Formålet er bevidst ikke at fortælle skolen:
 
@@ -260,7 +280,9 @@ Formålet er bevidst ikke at fortælle skolen:
 
 Tilgangen er i stedet:
 
-**"Her er programmet, arkitekturen, kildekoden, testværktøjerne og dokumentationen. Undersøg løsningen i jeres eget miljø, og træf en dokumenteret beslutning."**
+> **"Her er programmet, arkitekturen, kildekoden, testværktøjerne og dokumentationen. Undersøg løsningen i jeres eget miljø, og træf en dokumenteret beslutning."**
+
+---
 
 ## Test før bred anvendelse
 
@@ -268,14 +290,16 @@ Den anbefalede indførelse af ChromaLearn er en begrænset pilot.
 
 Eksempelvis:
 
-* én eller få lærere
-* et afgrænset fag
-* en begrænset periode
-* en mindre elevgruppe
-* involvering af relevant IT- og dataansvarlig
-* evaluering før udvidelse
+- én eller få lærere
+- et afgrænset fag
+- en begrænset periode
+- en mindre elevgruppe
+- involvering af relevant IT- og dataansvarlig
+- evaluering før udvidelse
 
 Dermed kan skolen undersøge både den pædagogiske værdi og de tekniske konsekvenser, før løsningen eventuelt udbredes.
+
+---
 
 ## Open source
 
@@ -291,6 +315,8 @@ Det kan være særligt relevant på skoler, hvor IT-/EDB-ansvarlige eller underv
 
 Kritiske egenskaber behøver ikke alene accepteres på baggrund af producentens beskrivelse. De kan inspiceres og testes.
 
+---
+
 ## Dansk som referencesprog
 
 ChromaLearn er først og fremmest udviklet med danske skoler for øje.
@@ -301,9 +327,11 @@ Projektet understøtter samtidig videre lokalisering.
 
 Der findes et oversættelsesværktøj, som kan hjælpe udviklere eller institutioner med at fremstille oversættelseskladder ved hjælp af deres valgte AI-backend.
 
-Maskinoversat materiale skal imidlertid gennemgås af et menneske, før det betragtes som godkendt materiale.
+Maskinoversat materiale skal gennemgås af et menneske, før det betragtes som godkendt materiale.
 
 Det gælder særligt juridiske, sikkerhedsmæssige, privacy-relaterede og pædagogiske tekster.
+
+---
 
 ## Hvad koster ChromaLearn?
 
@@ -317,20 +345,24 @@ Hvis der benyttes en ekstern AI-tjeneste, kan der være udgifter til API-kald el
 
 ChromaLearn er bevidst udviklet, så programmet ikke kræver et bestemt kommercielt AI-abonnement.
 
+---
+
 ## Hvad ChromaLearn ikke forsøger at være
 
 ChromaLearn er ikke:
 
-* en automatisk lærer
-* en karakterrobot
-* en erstatning for pædagogisk vurdering
-* en permanent elevprofil
-* et overvågningssystem
-* en låst AI-platform
-* en tjeneste, hvor udvikleren nødvendigvis modtager elevdata
-* et løfte om juridisk compliance alene ved installation
+- en automatisk lærer
+- en karakterrobot
+- en erstatning for pædagogisk vurdering
+- en permanent elevprofil
+- et overvågningssystem
+- en låst AI-platform
+- en tjeneste, hvor udvikleren nødvendigvis modtager elevdata
+- et løfte om juridisk compliance alene ved installation
 
 Det er et værktøj til kontrolleret og pædagogisk brug af generativ AI.
+
+---
 
 ## Hvad læreren får ud af det
 
@@ -340,12 +372,14 @@ I stedet for at hver lærer skal opfinde sin egen systemprompt eller forsøge at
 
 Læreren kan koncentrere sig om:
 
-* hvad eleven skal lære
-* hvor meget hjælp der er passende
-* hvordan undervisningen skal tilrettelægges
-* om eleven faktisk forstår stoffet
+- hvad eleven skal lære
+- hvor meget hjælp der er passende
+- hvordan undervisningen skal tilrettelægges
+- om eleven faktisk forstår stoffet
 
 AI-teknikken ligger i baggrunden.
+
+---
 
 ## Hvad skoleledelsen får ud af det
 
@@ -353,16 +387,18 @@ For skoleledelsen er ChromaLearn først og fremmest tænkt som en mere kontrolle
 
 Løsningen giver mulighed for:
 
-* afgrænset pilotafprøvning
-* eget valg af AI-infrastruktur
-* teknisk inspektion
-* åben kildekode
-* rollefordeling
-* dokumenteret privacy-tilgang
-* materiale til intern vurdering
-* mulighed for at stoppe eller ændre anvendelsen
+- afgrænset pilotafprøvning
+- eget valg af AI-infrastruktur
+- teknisk inspektion
+- åben kildekode
+- rollefordeling
+- dokumenteret privacy-tilgang
+- materiale til intern vurdering
+- mulighed for at stoppe eller ændre anvendelsen
 
 Det giver et bedre grundlag for en ledelsesmæssig beslutning end blot at åbne adgang til en almindelig offentlig chatbot.
+
+---
 
 ## Hvad IT/EDB-ansvarlige får ud af det
 
@@ -370,22 +406,24 @@ IT-medarbejdere får adgang til både det installerbare program og kildekoden.
 
 De kan derfor:
 
-* undersøge arkitekturen
-* kontrollere konfiguration
-* tilslutte institutionens valgte AI-model
-* efterprøve privacy-egenskaber
-* gennemgå kode og tests
-* bygge pakken selv
-* bidrage med forbedringer
-* tilpasse installationen til lokale krav
+- undersøge arkitekturen
+- kontrollere konfiguration
+- tilslutte institutionens valgte AI-model
+- efterprøve privacy-egenskaber
+- gennemgå kode og tests
+- bygge pakken selv
+- bidrage med forbedringer
+- tilpasse installationen til lokale krav
 
 Projektet er bevidst lavet, så teknisk kompetente skoler ikke bliver låst ude af deres eget system.
+
+---
 
 ## Fremtidig mulighed: kontrolleret AI-udvidelse
 
 Efter en længere evalueringsperiode kan der senere udvikles et særskilt AI-baseret udviklingsmodul.
 
-Denne funktion findes ikke som en del af den nuværende ChromaLearn-release.
+**Denne funktion findes ikke som en del af den nuværende ChromaLearn-release.**
 
 Tanken er, at en lærer i fremtiden kan beskrive en ønsket funktion i almindeligt sprog.
 
@@ -403,16 +441,16 @@ Alle foreslåede ændringer skal kunne spores.
 
 Loggen kan blandt andet dokumentere:
 
-* hvad læreren bad om
-* AI'ens specifikation
-* hvorfor løsningen blev valgt
-* hvilke filer der blev ændret
-* den præcise kodeforskel
-* hvilke tests der blev udført
-* resultatet af sikkerheds- og privacykontrol
-* den pædagogiske vurdering
-* hvem der godkendte ændringen
-* hvilken programversion ændringen indgår i
+- hvad læreren bad om
+- AI'ens specifikation
+- hvorfor løsningen blev valgt
+- hvilke filer der blev ændret
+- den præcise kodeforskel
+- hvilke tests der blev udført
+- resultatet af sikkerheds- og privacykontrol
+- den pædagogiske vurdering
+- hvem der godkendte ændringen
+- hvilken programversion ændringen indgår i
 
 En AI-genereret funktion må aldrig gå direkte ud til elever.
 
@@ -420,11 +458,13 @@ Den skal først gennemgå alle krævede kontroller og menneskelig godkendelse.
 
 Hvis skolen allerede har en egnet AI-model eller AI-tjeneste, er målet, at samme infrastruktur kan anvendes. En eventuel betaling for en sådan fremtidig udvidelse behøver derfor primært at dække reelle AI-/API- eller driftsomkostninger frem for at skabe en unødvendig ekstra abonnementsbarriere.
 
+---
+
 ## Grundprincippet
 
 ChromaLearn bygger i sidste ende på en enkel idé:
 
-**AI i skolen bør ikke vurderes på, hvor meget arbejde den kan udføre for eleven, men på hvor godt den kan hjælpe eleven med selv at lære at udføre arbejdet.**
+> **AI i skolen bør ikke vurderes på, hvor meget arbejde den kan udføre for eleven, men på hvor godt den kan hjælpe eleven med selv at lære at udføre arbejdet.**
 
 Teknologien skal understøtte læreren.
 
@@ -434,7 +474,9 @@ Eleven skal bevare sin aktive rolle i læringen.
 
 Og skolen skal bevare kontrollen over teknologi, data og anvendelse.
 
-### Kort fortalt
+---
+
+## Kort fortalt
 
 **ChromaLearn er open source AI til undervisning, hvor eleven stadig skal tænke selv.**
 
