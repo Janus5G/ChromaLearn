@@ -3,7 +3,7 @@
 ChromaLearn er et open-source pædagogisk AI-lag til skoler. Dansk er projektets standardsprog for brugerflade, dokumentation og evalueringsmateriale. Skolen vælger selv en OpenAI-kompatibel inference-server og AI-model, mens ChromaLearn styrer læringsforløb, lokale roller og privacy-grænser.
 
 [📘 Læs den komplette beskrivelse af ChromaLearn](https://janus5g.github.io/ChromaLearn/about.html)
-<blockquote class="twitter-tweet"><p lang="da" dir="ltr">ChromaLearn stopper ikke ved en .deb-pakke.<br><br>Det bliver også en del af ChromaPress – min custom Linux ISO-builder under udvikling.<br><br>Målet: Muligheden for at bygge en komplet, kontrolleret skoleinstallation med ChromaLearn integreret fra starten.<br><br>AI til udvikling – ikke afvikling</p>&mdash; Janus Rokkjær - Github-Janus5G (@JanusR2022) <a href="https://x.com/JanusR2022/status/2098309747854209443?ref_src=twsrc%5Etfw">September 11, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="da" dir="ltr">ChromaLearn stopper ikke ved en .deb-pakke.<br><br>Det bliver også en del af ChromaPress – min custom Linux ISO-builder under udvikling.<br><br>Målet: Muligheden for at bygge en komplet, kontrolleret skoleinstallation med ChromaLearn integreret fra starten.<br><br>AI til udvikling – ikke afvikling</p>&mdash; Janus Rokkjær - Github-Janus5G (@JanusR2022) <a href="https://x.com/JanusR2022/status/2098309747854209443?
 
 ## Roller
 
