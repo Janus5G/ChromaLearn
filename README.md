@@ -10,7 +10,7 @@ Det bliver også en del af ChromaPress – min custom Linux ISO-builder under ud
 
 Målet: Muligheden for at bygge en komplet, kontrolleret skoleinstallation med ChromaLearn integreret fra starten.
 
-AI til udvikling – ikke afvikling
+AI til udvikling – ikke afvikling https://x.com/JanusR2022/status/2098309747854209443?s=20
 
 ## Roller
 
