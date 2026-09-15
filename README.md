@@ -6,11 +6,15 @@ ChromaLearn er et open-source pædagogisk AI-lag til skoler. Dansk er projektets
 
 ## ChromaLearn stopper ikke ved en .deb-pakke.
 
-ChromaLearn kan bruges sammen med **ChromaPress**, den open-source Linux ISO-builder og verificerings-workbench, som nu er udgivet i en offentlig alpha-version.
+ChromaLearn kan bruges sammen med **ChromaPress** – den open-source Linux ISO-builder og verificerings-workbench.
 
-Målet er en samlet, kontrollerbar skoleløsning, hvor ChromaLearn kan indgå i en Linux-installation, som skolen selv kan bygge, gennemgå og verificere.
+Målet er at gøre det muligt at bygge en komplet, kontrollerbar skoleinstallation med ChromaLearn integreret fra starten.
 
-> **Vigtigt:** ChromaPress `v1.0.0a72` er en alpha-udgivelse. Skoleevalueringspakken er ikke et compliance-certifikat og er ikke juridisk rådgivning. Den konkrete skole skal selv verificere den faktiske installation, AI-/inference-backend, logging, infrastruktur og driftspraksis før bred anvendelse.
+**ChromaPress v1.0.0a72 — offentlig alpha**
+
+- **Windows 11 + WSL2:** [Download ChromaPress.exe](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/ChromaPress.exe)
+- **Debian / Ubuntu:** [Download chromapress_1.0.0.a72-1_all.deb](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/chromapress_1.0.0.a72-1_all.deb)
+- [Se ChromaPress-projektet og release-noterne](https://github.com/Janus5G/ChromaPress/releases/tag/v1.0.0a72)
 
 ## Roller
 
@@ -124,9 +128,9 @@ Til en kontrolleret canary-test kan `chromalearn-privacy-scan <TEST-MARKØR>` an
 
 ChromaLearn er udviklet til at blive testet og verificeret i skolens eget miljø, før det tages bredt i brug.
 
-Evalueringspakken indeholder materiale til skoleledelse, lærere, IT/EDB-ansvarlige og DPO/dataansvarlige samt vejledning til pilotafprøvning, databeskyttelse og teknisk verifikation.
-
 📦 **[Hent ChromaLearn Skoleevalueringspakke v1.2.1 DA](docs/ChromaLearn_Skoleevalueringspakke_v1.2.1_DA.zip)**
+
+Evalueringspakken indeholder materiale til skoleledelse, lærere, IT/EDB-ansvarlige og DPO/dataansvarlige samt vejledning til pilotafprøvning, databeskyttelse og teknisk verifikation.
 
 ## Licens
 
