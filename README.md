@@ -23,7 +23,7 @@ Den samlede løsning består af tre dele:
    Værktøj til analyse, tilpasning, opbygning og verificering af Linux-installationsimages.
 
    - **Windows 11 + WSL2:** [Download ChromaPress.exe](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/ChromaPress.exe)
-   - **Debian / Ubuntu:** [Download chromapress_1.0.0~a72-1_all.deb](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/chromapress_1.0.0~a72-1_all.deb)
+   - **Debian / Ubuntu:** [Download chromapress_1.0.0~a72-1_all.deb]([https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/chromapress_1.0.0~a72-1_all.deb](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/chromapress_1.0.0_a72-1_all.deb))
    - [ChromaPress-projektet på GitHub](https://github.com/Janus5G/ChromaPress)
 
    **SHA-256**
