@@ -6,11 +6,36 @@ ChromaLearn er et open-source pædagogisk AI-lag til skoler. Dansk er projektets
 
 ## ChromaLearn stopper ikke ved en .deb-pakke.
 
-Det bliver også en del af ChromaPress – min custom Linux ISO-builder under udvikling.
+ChromaLearn kan bruges sammen med **ChromaPress**, den open-source Linux ISO-builder og verificerings-workbench, som nu er udgivet i en offentlig alpha-version.
 
-Målet: Muligheden for at bygge en komplet, kontrolleret skoleinstallation med ChromaLearn integreret fra starten.
+Målet er en samlet, kontrollerbar skoleløsning, hvor ChromaLearn kan indgå i en Linux-installation, som skolen selv kan bygge, gennemgå og verificere.
 
 AI til udvikling – ikke afvikling https://x.com/JanusR2022/status/2098309747854209443?s=20
+
+## Komplet pakke til danske skoler
+
+Den samlede løsning består af tre dele:
+
+1. **ChromaLearn AI 0.4.5**
+   Det pædagogiske AI-lag til elever, lærere og IT/EDB-administratorer.
+
+2. **ChromaPress v1.0.0a72**
+   Værktøj til analyse, tilpasning, opbygning og verificering af Linux-installationsimages.
+
+   - **Windows 11 + WSL2:** [Download ChromaPress.exe](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/ChromaPress.exe)
+   - **Debian / Ubuntu:** [Download chromapress_1.0.0~a72-1_all.deb](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/chromapress_1.0.0~a72-1_all.deb)
+   - [ChromaPress-projektet på GitHub](https://github.com/Janus5G/ChromaPress)
+
+   **SHA-256**
+   - `ChromaPress.exe` — `4a7e1edd07b4b0cdeeb53fee0ecc0448ff2047e6d218a4e9a0b228d2ad79f76c`
+   - `chromapress_1.0.0~a72-1_all.deb` — `b5fe5c1d96d3f7012666f8a2b07bf0384f562704a671981458ec118780a29d2c`
+
+3. **ChromaLearn Skoleevalueringspakke v1.2.1 DA**
+   Dansk test- og verifikationsmateriale til en kontrolleret teknisk, pædagogisk og privacy-/juridisk vurdering før en skolepilot.
+
+   📦 **[Hent ChromaLearn Skoleevalueringspakke v1.2.1 DA](docs/ChromaLearn_Skoleevalueringspakke_v1.2.1_DA.zip)**
+
+> **Vigtigt:** ChromaPress `v1.0.0a72` er en alpha-udgivelse. Skoleevalueringspakken er ikke et compliance-certifikat og er ikke juridisk rådgivning. Den konkrete skole skal selv verificere den faktiske installation, AI-/inference-backend, logging, infrastruktur og driftspraksis før bred anvendelse.
 
 ## Roller
 
@@ -124,9 +149,9 @@ Til en kontrolleret canary-test kan `chromalearn-privacy-scan <TEST-MARKØR>` an
 
 ChromaLearn er udviklet til at blive testet og verificeret i skolens eget miljø, før det tages bredt i brug.
 
-📦 **[Hent ChromaLearn Skoleevalueringspakke v1.2.1 DA](docs/ChromaLearn_Skoleevalueringspakke_v1.2.1_DA.zip)**
-
 Evalueringspakken indeholder materiale til skoleledelse, lærere, IT/EDB-ansvarlige og DPO/dataansvarlige samt vejledning til pilotafprøvning, databeskyttelse og teknisk verifikation.
+
+📦 **[Hent ChromaLearn Skoleevalueringspakke v1.2.1 DA](docs/ChromaLearn_Skoleevalueringspakke_v1.2.1_DA.zip)**
 
 ## Licens
 
