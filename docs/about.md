@@ -14,6 +14,43 @@ ChromaLearn er ikke tænkt som en erstatning for læreren. Læreren fastlægger 
 
 ---
 
+## Komplet pakke til danske skoler
+
+ChromaLearn kan indgå i en samlet, kontrollerbar skoleløsning sammen med ChromaPress og den danske skoleevalueringspakke.
+
+### 1. ChromaLearn AI 0.4.5
+
+ChromaLearn er det pædagogiske AI-lag til elever, lærere og IT/EDB-administratorer.
+
+[Åbn ChromaLearn-projektet på GitHub](https://github.com/Janus5G/ChromaLearn)
+
+### 2. ChromaPress v1.0.0a72
+
+ChromaPress er værktøjet til analyse, tilpasning, opbygning og verificering af Linux-installationsimages. Det kan bruges til at bygge en kontrolleret Linux-installation, hvor ChromaLearn indgår sammen med skolens øvrige valgte komponenter.
+
+> **Status:** ChromaPress `v1.0.0a72` er en offentlig alpha-udgivelse til test, evaluering og feedback.
+
+**Direkte download**
+
+- **Windows 11 + WSL2:** [Download ChromaPress.exe](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/ChromaPress.exe)
+- **Debian / Ubuntu:** [Download chromapress_1.0.0.a72-1_all.deb](https://github.com/Janus5G/ChromaPress/releases/download/v1.0.0a72/chromapress_1.0.0.a72-1_all.deb)
+- [Se release-noter og alle ChromaPress-filer](https://github.com/Janus5G/ChromaPress/releases/tag/v1.0.0a72)
+
+**SHA-256**
+
+- `ChromaPress.exe` — `4a7e1edd07b4b0cdeeb53fee0ecc0448ff2047e6d218a4e9a0b228d2ad79f76c`
+- `chromapress_1.0.0.a72-1_all.deb` — `b5fe5c1d96d3f7012666f8a2b07bf0384f562704a671981458ec118780a29d2c`
+
+### 3. ChromaLearn Skoleevalueringspakke v1.2.1 DA
+
+Skoleevalueringspakken indeholder dansk test- og verifikationsmateriale til en kontrolleret teknisk, pædagogisk og privacy-/juridisk vurdering før en skolepilot.
+
+Materialet er beregnet til blandt andet skoleledelse, lærere, IT/EDB-ansvarlige og DPO/dataansvarlige.
+
+> **Vigtigt:** Evalueringspakken er ikke et compliance-certifikat og er ikke juridisk rådgivning. Den konkrete skole skal selv verificere den faktiske installation, AI-/inference-backend, logging, infrastruktur og driftspraksis før bred anvendelse.
+
+---
+
 ## Hvorfor ChromaLearn?
 
 Generativ AI giver elever adgang til meget stærke værktøjer. Den samme teknologi kan imidlertid bruges på to meget forskellige måder.
